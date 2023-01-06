@@ -38,7 +38,7 @@
 
 /* Analyticla blog section styles */
 .blogs{
-    padding: 130px 200px;
+    padding: 130px 200px 60px 200px;
 }
 .blog{
     display: flex;
@@ -74,4 +74,56 @@
 .list i{
     color: green;
     font-size: 14px;
+}
+
+/* planning section styles */
+.cards{
+    padding: 30px 230px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    gap: 50px;
+}
+.card-content{
+    padding: 20px 40px;
+}
+.card-content img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 10px;
+}
+.card-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+/* motivation section styles */
+.box{
+    padding: 100px 230px;
+}
+.box-content{
+    padding: 80px 600px 60px 64px;
+    background-image: linear-gradient(to right, #0082ec, white), url(..//images/watch.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
 }
